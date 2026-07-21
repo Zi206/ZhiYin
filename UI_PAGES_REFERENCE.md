@@ -108,7 +108,7 @@ lv_obj_add_flag(preview_frame_, LV_OBJ_FLAG_HIDDEN);
 ### 7. 底部字幕栏
 - **代码**: `main/display/lcd_display.cc:460-478`（路径A）和 `948-1016`（路径B）
 - **组件**: `bottom_bar_`, `chat_message_label_`
-- **背景**: 70% 纯黑，顶部 1px 低亮青色分隔线，正文 `#F0FCFF`
+- **背景**: 70% 纯黑，无边框（顶部青色分隔线已按用户要求删除），正文 `#F0FCFF`
 
 ### 8. 微信消息气泡区 (CONFIG_USE_WECHAT_MESSAGE_STYLE)
 - **代码**: `main/display/lcd_display.cc:460-478`（路径A）
