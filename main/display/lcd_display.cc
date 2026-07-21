@@ -1216,10 +1216,7 @@ void LcdDisplay::SetupUI() {
     
     lv_obj_set_style_bg_color(bottom_bar_, lv_color_hex(kHoloBlack), 0);
     lv_obj_set_style_bg_opa(bottom_bar_, LV_OPA_70, 0);
-    lv_obj_set_style_border_width(bottom_bar_, 1, 0);
-    lv_obj_set_style_border_side(bottom_bar_, (lv_border_side_t)LV_BORDER_SIDE_TOP, 0);
-    lv_obj_set_style_border_color(bottom_bar_, lv_color_hex(kHoloCyan), 0);
-    lv_obj_set_style_border_opa(bottom_bar_, LV_OPA_40, 0);
+    lv_obj_set_style_border_width(bottom_bar_, 0, 0);
     lv_obj_set_style_shadow_width(bottom_bar_, 0, 0);
     lv_obj_set_style_text_color(bottom_bar_, lv_color_hex(kHoloText), 0);
     lv_obj_set_style_pad_all(bottom_bar_, 0, 0);
@@ -2007,8 +2004,6 @@ void LcdDisplay::SetTheme(Theme* theme) {
     if (bottom_bar_ != nullptr) {
         lv_obj_set_style_bg_color(bottom_bar_, lv_color_hex(kHoloBlack), 0);
         lv_obj_set_style_bg_opa(bottom_bar_, LV_OPA_70, 0);
-        lv_obj_set_style_border_color(bottom_bar_, lv_color_hex(kHoloCyan), 0);
-        lv_obj_set_style_border_opa(bottom_bar_, LV_OPA_40, 0);
     }
 #endif
     

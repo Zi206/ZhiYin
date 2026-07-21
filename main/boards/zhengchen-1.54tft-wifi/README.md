@@ -1,44 +1,42 @@
-# 产品相关介绍网址
+# Product Reference
 
-```http
+```text
 https://e.tb.cn/h.6Gl2LC7rsrswQZp?tk=qFuaV9hzh0k CZ356
 ```
 
-# 编译配置命令
+# Build Configuration
 
-**配置编译目标为 ESP32S3：**
+Set the target to ESP32-S3:
 
 ```bash
 idf.py set-target esp32s3
 ```
 
-**打开 menuconfig：**
+Open menuconfig:
 
 ```bash
 idf.py menuconfig
 ```
 
-**选择板子：**
+Select the board:
 
-```
+```text
 Xiaozhi Assistant -> Board Type -> zhengchen-1.54tft-wifi
 ```
 
-```
+Build:
 
-**编译：**
-
-bash
+```bash
 idf.py build
 ```
 
-**下载：**
+Build, flash, and monitor:
+
+```bash
 idf.py build flash monitor
+```
 
-进行下载和显示日志
-
-
-**固件生成：**
+Generate a merged firmware image:
 
 ```bash
 idf.py merge-bin
