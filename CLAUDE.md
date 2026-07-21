@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Only `main/boards/common/` and `main/boards/zhengchen-1.54tft-wifi/` exist — every other board branch in `main/CMakeLists.txt` and `main/Kconfig.projbuild` is dead upstream code. Do not spend time on it, and do not "fix" it.
 
-The Chinese design docs at the repo root (`01-项目总览与开发方案.md`, `02-嵌入式固件架构设计说明书.md`) and `MIGRATION_HANDOFF.md` are the product spec. `MIGRATION_HANDOFF.md` is the authoritative running log of intentional deviations from upstream — **read it before changing behavior**, since several apparent oddities (50 ms edge guard, GPIO39 with pulls disabled, 12 s dance hold) are deliberate and must not be reverted without the user asking.
+The English design docs at the repo root (`01-project-overview-and-development-plan.md`, `02-embedded-firmware-architecture-design-specification.md`) and `MIGRATION_HANDOFF.md` are the product spec. `MIGRATION_HANDOFF.md` is the authoritative running log of intentional deviations from upstream — **read it before changing behavior**, since several apparent oddities (50 ms edge guard, GPIO39 with pulls disabled, 12 s dance hold) are deliberate and must not be reverted without the user asking.
 
 ## Build / merge / flash
 
