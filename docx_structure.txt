@@ -1,0 +1,75 @@
+Para 0:
+Text: 智音 HBG-V1.0 — 嵌入式固件架构设计说明书
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 1:
+Text: 文档状态：内部技术评审稿 | 版本：v0.9-draft
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 2:
+Text: 一、固件架构总览
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 3:
+Text: 1.1 分层架构
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 4:
+Text: 
+Has Drawing: True
+Has Pict: False
+--------------------
+Para 5:
+Text: 1.2 FreeRTOS 任务分配（双核 SMP）
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 6:
+Text: 
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 7:
+Text: 1.3 内存规划
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 8:
+Text: 
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 9:
+Text: PSRAM 碎片化是核心挑战。需在配置中启用外部内存分配扩展，并优先使用带外部内存能力的专用分配接口代替普通 malloc。
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 10:
+Text: 二、音频子系统详细设计
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 11:
+Text: 2.1 双麦克风阵列
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 12:
+Text: 
+Has Drawing: True
+Has Pict: False
+--------------------
+Para 13:
+Text: 两颗硅麦按声学间距布设，形成近似等距线阵
+Has Drawing: False
+Has Pict: False
+--------------------
+Para 14:
+Text: AEC3 启用噪声抑制与自动增益
+Has Drawing: False
+Has Pict: False
+--------------------

@@ -1,0 +1,405 @@
+{
+  "schema": "zhiyin-expression-alignment-v1",
+  "target_size": [
+    240,
+    320
+  ],
+  "target_center_x": 120.0,
+  "target_baseline_y": 288.0,
+  "safe_bounds": [
+    12,
+    16,
+    228,
+    304
+  ],
+  "background_threshold": 34,
+  "animations": [
+    {
+      "name": "angry",
+      "source": "dog_angry.gif",
+      "output": "dog_angry.mjp",
+      "fps": 20,
+      "frames": 29,
+      "sha256": "85968725d99e9beeab3d0b975de3ab75b4cf9a40fe557ea16a5667a201489ede",
+      "source_anchor": {
+        "center_x": 119.0,
+        "baseline_y": 287.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 1.0,
+      "translation": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "source_union_bounds": [
+        57,
+        68,
+        183,
+        288
+      ],
+      "aligned_union_bounds": [
+        58,
+        69,
+        184,
+        289
+      ],
+      "median_result": {
+        "center_x": 120.0,
+        "baseline_y": 288.0,
+        "center_error_px": 0.0,
+        "baseline_error_px": 0.0
+      },
+      "max_frame_deviation": {
+        "center_px": 1.5,
+        "baseline_px": 16.0
+      }
+    },
+    {
+      "name": "dancing",
+      "source": "dog_dancing.gif",
+      "output": "dog_dancing.mjp",
+      "fps": 20,
+      "frames": 41,
+      "sha256": "485b3b00016a0e7e17decbbdad081ac763a99c0a76ba23902de7603832cd0172",
+      "source_anchor": {
+        "center_x": 120.5,
+        "baseline_y": 317.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 0.971119,
+      "translation": {
+        "x": 2.98,
+        "y": -19.845
+      },
+      "source_union_bounds": [
+        25,
+        40,
+        202,
+        319
+      ],
+      "aligned_union_bounds": [
+        28,
+        19,
+        199,
+        290
+      ],
+      "median_result": {
+        "center_x": 120.0,
+        "baseline_y": 289.0,
+        "center_error_px": 0.0,
+        "baseline_error_px": 1.0
+      },
+      "max_frame_deviation": {
+        "center_px": 10.5,
+        "baseline_px": 11.0
+      }
+    },
+    {
+      "name": "happy",
+      "source": "dog_happy.gif",
+      "output": "dog_happy.mjp",
+      "fps": 20,
+      "frames": 57,
+      "sha256": "f98716a23cd1699c5f0e790869d3de75d21f6582486eb6688d1f006ba90afea7",
+      "source_anchor": {
+        "center_x": 109.5,
+        "baseline_y": 285.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 0.464286,
+      "translation": {
+        "x": 69.161,
+        "y": 155.679
+      },
+      "source_union_bounds": [
+        0,
+        106,
+        226,
+        313
+      ],
+      "aligned_union_bounds": [
+        69,
+        205,
+        173,
+        303
+      ],
+      "median_result": {
+        "center_x": 120.0,
+        "baseline_y": 289.0,
+        "center_error_px": 0.0,
+        "baseline_error_px": 1.0
+      },
+      "max_frame_deviation": {
+        "center_px": 6.0,
+        "baseline_px": 14.0
+      }
+    },
+    {
+      "name": "listening",
+      "source": "dog_listening.gif",
+      "output": "dog_listening.mjp",
+      "fps": 20,
+      "frames": 38,
+      "sha256": "afcdf2603c00ff70190f6e613fba6bec1ca30688d07bf1a9629fb30472f5f602",
+      "source_anchor": {
+        "center_x": 111.75,
+        "baseline_y": 271.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 1.0,
+      "translation": {
+        "x": 8.25,
+        "y": 17.0
+      },
+      "source_union_bounds": [
+        11,
+        36,
+        196,
+        272
+      ],
+      "aligned_union_bounds": [
+        20,
+        53,
+        204,
+        288
+      ],
+      "median_result": {
+        "center_x": 119.75,
+        "baseline_y": 288.0,
+        "center_error_px": -0.25,
+        "baseline_error_px": 0.0
+      },
+      "max_frame_deviation": {
+        "center_px": 9.25,
+        "baseline_px": 0.0
+      }
+    },
+    {
+      "name": "neutral",
+      "source": "dog_neutral.gif",
+      "output": "dog_neutral.mjp",
+      "fps": 20,
+      "frames": 17,
+      "sha256": "f7b2133c383f9dfb10ad376fa68cc5a88a2f5ab098267df1b0bb131e65d25ece",
+      "source_anchor": {
+        "center_x": 121.5,
+        "baseline_y": 271.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 1.0,
+      "translation": {
+        "x": -1.5,
+        "y": 17.0
+      },
+      "source_union_bounds": [
+        46,
+        63,
+        196,
+        271
+      ],
+      "aligned_union_bounds": [
+        45,
+        80,
+        194,
+        288
+      ],
+      "median_result": {
+        "center_x": 119.5,
+        "baseline_y": 288.0,
+        "center_error_px": -0.5,
+        "baseline_error_px": 0.0
+      },
+      "max_frame_deviation": {
+        "center_px": 0.5,
+        "baseline_px": 0.0
+      }
+    },
+    {
+      "name": "sad",
+      "source": "dog_sad.gif",
+      "output": "dog_sad.mjp",
+      "fps": 20,
+      "frames": 29,
+      "sha256": "a19ac8655da73ae0d37f136ea3ac03293d7d8fa72d98bf52bf2be797c6021b83",
+      "source_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 291.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 1.0,
+      "translation": {
+        "x": 0.0,
+        "y": -3.0
+      },
+      "source_union_bounds": [
+        58,
+        111,
+        183,
+        293
+      ],
+      "aligned_union_bounds": [
+        58,
+        108,
+        183,
+        290
+      ],
+      "median_result": {
+        "center_x": 120.0,
+        "baseline_y": 288.0,
+        "center_error_px": 0.0,
+        "baseline_error_px": 0.0
+      },
+      "max_frame_deviation": {
+        "center_px": 2.5,
+        "baseline_px": 2.0
+      }
+    },
+    {
+      "name": "sleepy",
+      "source": "dog_sleepy.gif",
+      "output": "dog_sleepy.mjp",
+      "fps": 20,
+      "frames": 29,
+      "sha256": "3ba1b5849b36f761a69d31100683fb130039acad0c15e6da5a9a01c3dc2c9983",
+      "source_anchor": {
+        "center_x": 124.0,
+        "baseline_y": 268.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 0.913043,
+      "translation": {
+        "x": 6.783,
+        "y": 43.304
+      },
+      "source_union_bounds": [
+        22,
+        63,
+        239,
+        271
+      ],
+      "aligned_union_bounds": [
+        27,
+        101,
+        225,
+        291
+      ],
+      "median_result": {
+        "center_x": 119.5,
+        "baseline_y": 288.0,
+        "center_error_px": -0.5,
+        "baseline_error_px": 0.0
+      },
+      "max_frame_deviation": {
+        "center_px": 8.0,
+        "baseline_px": 3.0
+      }
+    },
+    {
+      "name": "speaking",
+      "source": "dog_speaking.gif",
+      "output": "dog_speaking.mjp",
+      "fps": 20,
+      "frames": 26,
+      "sha256": "a7301e4723c12b66dfc6b7ac88d05e045e4991911858523c754172440b6ab443",
+      "source_anchor": {
+        "center_x": 121.5,
+        "baseline_y": 271.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 1.0,
+      "translation": {
+        "x": -1.5,
+        "y": 17.0
+      },
+      "source_union_bounds": [
+        46,
+        63,
+        198,
+        272
+      ],
+      "aligned_union_bounds": [
+        44,
+        80,
+        196,
+        289
+      ],
+      "median_result": {
+        "center_x": 120.0,
+        "baseline_y": 288.0,
+        "center_error_px": 0.0,
+        "baseline_error_px": 0.0
+      },
+      "max_frame_deviation": {
+        "center_px": 0.5,
+        "baseline_px": 1.0
+      }
+    },
+    {
+      "name": "surprised",
+      "source": "dog_surprised.gif",
+      "output": "dog_surprised.mjp",
+      "fps": 20,
+      "frames": 29,
+      "sha256": "3e8438e9b32a94d77edf52d0bb723ab40cad70c2f5999589ebf4b2e0d37a6cb5",
+      "source_anchor": {
+        "center_x": 122.0,
+        "baseline_y": 269.0
+      },
+      "target_anchor": {
+        "center_x": 120.0,
+        "baseline_y": 288.0
+      },
+      "scale": 1.0,
+      "translation": {
+        "x": -2.0,
+        "y": 19.0
+      },
+      "source_union_bounds": [
+        50,
+        51,
+        194,
+        270
+      ],
+      "aligned_union_bounds": [
+        48,
+        70,
+        192,
+        289
+      ],
+      "median_result": {
+        "center_x": 120.0,
+        "baseline_y": 288.0,
+        "center_error_px": 0.0,
+        "baseline_error_px": 0.0
+      },
+      "max_frame_deviation": {
+        "center_px": 0.5,
+        "baseline_px": 1.0
+      }
+    }
+  ]
+}
